@@ -4,7 +4,7 @@ b10-gentsigkey
 tool to create BIND 10 TSIG keys
 
 The tool creates by default an HMAC-MD5 key with 128bits size and
-prints the key on the screen: 
+prints the key to _stdout_: 
 ```
 # b10-gentsigkey.py example.com example.com:rc4VdlEPMFan4D+9icDEkg==:hmac-md5
 ```
